@@ -1,6 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
-The discussion regarding biasing of survey questions because of a poor sampling plan, or the lack of knowledge of how the data was acquired, is very important for data analytics. Without this knowledge, the analysis can lead to incorrect conclusions. The example we have is that our survey asked the female respondents how many children they had. The survey also asked the children how many children were their family.
+The discussion regarding biasing of survey questions because of a poor sampling plan, or the lack of knowledge of how the data was acquired, is very important for data analytics. Without this knowledge, the analysis can lead to incorrect conclusions. The example we have is that our survey asked the female respondents how many children they had. The survey also asked the children how many children were in their family.
 ```
 # read in female response data and create PMF for the actual data
 resp = nsfg.ReadFemResp()
@@ -29,7 +29,7 @@ biased_pmf_num_kids
 ```
 Pmf({0: 0.0,<br/> 1: 0.20899335717935616,<br/> 2: 0.38323965252938175,<br/> 3: 0.25523760858456823,<br/> 4: 0.10015329586101177,<br/> 5: 0.052376085845682166},<br/> 'observed')
 
-The observed (biased) results PMF for the children (shown above) has 0% saying there were no children. 21% said 1 child, 38% said 2 children and 25% said 3 children. The mean number of children is 2.4 (displayed below) for the observed. This is more than double the actual mean result. The variability of the two samples, as measured by the variance, is fairly equivalent. This is good and allows us to calculate Cohen's d (effect size).
+The observed (biased) results PMF for the children (shown above) has 0% saying there were no children. 21% said 1 child, 38% said 2 children and 25% said 3 children. The mean number of children is 2.4 (displayed below) for the observed. This is more than double the actual mean result. <br/>The variability of the two samples, as measured by the variance, is fairly equivalent. This is good and allows us to calculate Cohen's d (effect size).
 
 ```
 print('mean of observed', "{:.2f}".format(biased_pmf_num_kids.Mean()))
