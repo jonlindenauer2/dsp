@@ -18,7 +18,7 @@ print('Mean first baby weight is', "{:.2f}".format(firsts.totalwgt_lb.mean()))
 print('Mean other baby weight is', "{:.2f}".format(others.totalwgt_lb.mean()))
 print("Cohen's d is", "{:+.2f}".format(cohens_d))
 ```
-Output:
+Output: <br/>
 Mean first baby weight is 7.20 <br/>
 Mean other baby weight is 7.33 <br/>
 Cohen's d is -0.09
