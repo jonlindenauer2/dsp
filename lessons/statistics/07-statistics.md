@@ -106,12 +106,12 @@ Therefore, there is a 35% chance that Elvis's twin was identical
 How do frequentist and Bayesian statistics compare?
 
 ```
-Bayesians are interested in the uncertainty of the probability of events. Bayesians use historical data as 
-prior knowledge, collect new data and use both as input to the model. The parameters are allowed to vary 
-(eg, Mean), but the data is assumed to be fixed (eg, constructing a credible region).
+Bayesians are interested in the uncertainty of the probability of events. Bayesians use historical data 
+as prior knowledge, collect new data and use both as input to the model. The parameters are allowed to 
+vary (eg, Mean), but the data is assumed to be fixed (eg, constructing a credible region).
 
 The Frequentist is interested in the "frequency" of repeated events. Frequentists chose a model to 
-represent the sample data (eg, Normal) and assume the data follows that model in the long-term. The 
+represent the sample data (eg, Normal) and assume the data follows that model in the long-run. The 
 Frequentist assumes a fixed model parameter (eg, Mean) and that the data varies (eg, constructing 
 confidence intervals).
 ```
